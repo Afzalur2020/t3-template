@@ -26,3 +26,18 @@ You can check out the [create-t3-app GitHub repository](https://github.com/t3-os
 ## How do I deploy this?
 
 Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+
+# Initiate Db and start the app
+yarn prisma db push
+yarn dev
+
+# push to github
+git remote add origin https://github.com/Afzalur2020/t3-template.git
+git branch -M main
+git push -u origin main
+
+# initiate db
+npx prisma db push
+
+# open in prisma studio
+npx prisma studio
